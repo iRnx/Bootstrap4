@@ -1,0 +1,49 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+    
+}
+
+.imagem-carrosel-dois {
+    object-fit: cover;
+    height: 400px;
+    
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkred!important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+/* Para imagem não ficar borrada quando colocarmos um height */
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Mudar a cor dos inputs do bootstrap */
+.form-control:focus {
+    border-color: darkred;
+    box-shadow: 0 0 0 0.2rem rgba(155, 23, 23, 0.25);
+} 
+
+.text:hover {
+    text-decoration: none;
+}
